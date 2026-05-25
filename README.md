@@ -1,6 +1,6 @@
 # AWS CodeBuild Sample Application
 
-A simple Node.js Express application configured for deployment using AWS CodeBuild and CodeDeploy.
+A simple Node.js Express application create by github copilot and configured for deployment using AWS CodeBuild and CodeDeploy for AWS practice.
 
 ## Project Structure
 
