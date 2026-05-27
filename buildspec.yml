@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - echo "Installing dependencies..."
-      - npm install
+      - npm ci
 
   pre_build:
     commands:
@@ -24,11 +24,8 @@ phases:
 
 artifacts:
   files:
-    - server.js
-    - package.json
-    - package-lock.json
-    - appspec.yml
-  discard-paths: yes
+    - '**/*'
+  discard-paths: no
 
 cache:
   paths:
